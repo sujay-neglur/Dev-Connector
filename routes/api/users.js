@@ -69,7 +69,6 @@ router.post("/login", (req, res) => {
     //check validation
     return res.status(400).json(errors);
   }
-
   const email = req.body.email;
   const password = req.body.password;
 
